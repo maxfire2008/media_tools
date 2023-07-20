@@ -9,6 +9,6 @@ set VideoPath=%~1
 set TargetFileSizeMB=25
 
 :compress
-py "C:\Users\Max\Documents\scripts\compress_video.py" "%VideoPath%" %TargetFileSizeMB%
+py "C:\Users\Max\Documents\media_tools\compress_video.py" "%VideoPath%" %TargetFileSizeMB%
 
 pause
